@@ -16,7 +16,7 @@ class Board
                 const space = new Space(x, y);
                 column.push(space);
             }
-            spaces.push(col);
+            spaces.push(column);
         }
         return spaces;
     }

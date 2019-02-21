@@ -24,6 +24,6 @@ class Player
     }
 
     get activeToken() {
-        return this.unusedTokens(0);
+        return this.unusedTokens[0];
     }
 }
