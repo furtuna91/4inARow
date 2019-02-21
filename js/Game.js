@@ -12,4 +12,12 @@ class Game
                         new Player('Player 2', 2, '#e59a13')];
         return players;
     }
+    get activePlayer() {
+        return this.players.find(player => player.active);
+    }
+
+    startGame() {
+
+    }
+
 }
